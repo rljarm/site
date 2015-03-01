@@ -1,0 +1,217 @@
+body {
+	font-family: arial;
+}
+.hero {
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(32,124,202,0.45) 0%,rgba(32,124,202,0.45) 14%,rgba(32,124,202,0.57) 23%,rgba(32,124,202,0.60) 28%,rgba(32,124,202,.75) 52%), url("/images/bg.jpg"); 
+	background-size: 100% 100%;
+	color: white;
+}
+.hero > div {
+	background-color: transparent;
+	min-height: 400px;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+header {
+	background-color: transparent;
+	min-height: 100px;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.search {
+	position: absolute;
+	top: 10px;
+	right:0px;
+}
+.search > input {
+	background-color: transparent;
+	border: 1px solid;
+	border-color: rgba(255, 255, 255, 0.5);
+}
+.search > button {
+	background-color: #ea501a;
+	color: white;
+	border: none;
+	border-radius: 3px;
+}
+.logo {
+	background-color: transparent;
+	position: absolute;
+	font-family: lobster;
+	font-size: 40px;
+	text-decoration: none;
+	top: 2px;
+	left:5px;
+	color: white;
+}
+.main-nav {
+	background-color: transparent;
+	position: absolute;
+	bottom: 0;
+	width: 960px;
+	color: white;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.5);
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-width: 1px;
+}
+.main-nav > a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 5px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.hero-content {
+	background-color: transparent;
+	position: absolute;
+	bottom: 20px;
+	width:960px;
+}
+.hero-content h1 {
+	font-weight: lighter;
+}
+.hero-content strong {
+	font-weight: bold;
+}
+.main_content {
+	background-color: #d7e1e7;
+	padding-bottom: 20px;
+}
+.main_content > div {
+	margin-bottom: 20px;
+	width: 960px;
+	margin: auto;
+}
+.breakouts { 
+	text-align: center;
+}
+.breakout {
+	background-color: white;
+	width: 300px;
+	text-align: center;
+	border-radius: 2px;
+	display: inline-block;
+	box-shadow: 10px 10px 20px -7px #888888;
+	transform: translateY(-20px);
+}
+.breakout p {
+	margin: 15px 15px;
+}
+.breakout:first-child {
+	border-color: white;
+	border-top: 4px;
+	border-top-color: #ea501a;
+	border-style: solid;
+}
+.breakout:nth-child(2) {
+	border-color: white;
+	border-top: 4px;
+	border-top-color: #8ecf41;
+	border-style: solid;
+}
+.breakout:last-child {
+	border-color: white;
+	border-top: 4px;
+	border-top-color: #0792d3;
+	border-style: solid;
+}
+.breakout > button {
+	background-color: transparent;
+	border: 1px solid;
+	border-radius: 4px;
+}
+.breakout:first-child > button {
+	border-color: #ea501a;
+	color: #ea501a;
+}
+.breakout:nth-child(2) > button {
+	border-color: #8ecf41;
+	color: #8ecf41;
+}
+.breakout:last-child > button {
+	border-color: #0792d3;
+	color: #0792d3;
+}
+.breakouts * + * {
+	margin-left: 15px;
+}
+.main-media {
+	border-radius: 2px;
+	box-shadow: 10px 10px 20px -7px #888888;
+	min-height: 600px;
+	margin-bottom: 20px;
+	background-color: white;
+	overflow: hidden;
+}
+.main-left {
+	background-color: white;
+	width: 384px;
+	min-height: 595px;
+	margin: 0;
+	float: left;
+	border-top-left-radius: 2px;
+}
+.main-right {
+	background-color: white;
+	width:576px;
+	min-height: 550px;
+	margin: 0;
+	overflow: hidden;
+	border-top-right-radius: 2px;
+}
+.media {
+	background-color: #e8f3f9;
+	overflow: hidden;
+	margin:10px;
+}
+.media div strong {
+	font-weight: normal;
+	font-size: 16px;
+	color: #0792d4;
+	padding-top: 5px;
+}
+.img {
+	height: 90px;
+	width: 90px;
+	float: left;
+}
+.media-content{
+	background-color: #e8f3f9;
+	margin-left: 90px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.tile {
+	background-color: #e3efd6;
+	float:left;
+	width: 150px;
+	margin: 10px;
+	color: darkgreen;
+}
+.tile-img > img {
+	height: 160px;
+	width: 150px;
+	margin: 0px;
+	display: block;
+}
+.strong {
+	margin-top: 0px;
+	background-color: #8ecf41;
+	padding: 6px;
+}
+.strong > strong {
+	font-weight: lighter;
+	font-size: 16px;
+}
+.tile p {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/*end tiles*/
